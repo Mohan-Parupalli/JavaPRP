@@ -1,0 +1,22 @@
+package javafunda;
+import java.util.*;
+public class LastDigit {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int num1=sc.nextInt();
+		int num2=sc.nextInt();
+		if(num1%10 == num2%10)
+		{
+			System.out.println("true");
+			
+		}
+		else
+		{
+			System.out.println("false");
+		}
+		// TODO Auto-generated method stub
+		sc.close();
+	}
+
+}
